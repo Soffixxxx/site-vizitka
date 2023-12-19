@@ -1,0 +1,316 @@
+html, body{
+    height: 100%;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+   background-color: #7BCECD;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:nowrap;
+   justify-content:center ;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 50px;
+}
+
+
+a {
+    color:rgb(49, 37, 24);
+    text-decoration: none;
+}
+
+
+#mainnav img{
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#mainnav h2{
+    width: 20px;
+   height: 20px;
+    text-align: left;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#mainnav ul {
+   word-spacing: 200px;
+  margin: 30px;
+  margin-right: 100px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#mainnav li {
+    display: inline-block;
+text-decoration: none;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #d8cec2;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:nowrap;
+   justify-content: center;
+   justify-content:space-between;
+   align-items: center;
+   height: 450px;
+}
+
+.container_img{
+    width: 390px;
+    height: 370px;
+    border:10px solid #7BCECD;
+    
+}
+
+.container_text{
+    margin-right: 100px;
+    font-size: x-large;
+    
+}
+
+
+.raboti_zagl{
+  width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #7BCECD;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:nowrap;
+   justify-content: center;
+   justify-content:space-around;
+   align-items: center;
+   height: auto;  
+}
+
+
+
+
+.raboti{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #7BCECD;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:nowrap;
+   justify-content: center;
+   justify-content:space-around;
+   align-items: center;
+   height: 370px;
+   font-size: large;
+}
+
+
+.raboti h1{
+    height: 430px;
+    font-size: xx-large;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+
+}
+
+.client{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-color:#d8cec2;
+    align-items: center;
+    border:5px solid #4e4131;
+    align-items: baseline;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.client_img{
+    width: 200px;
+    height: 240px;
+}
+
+
+
+.uslugi{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #4e4131;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:nowrap;
+   justify-content: center;
+   justify-content:space-evenly;
+   align-items: center;
+   height: 400px;
+   font-size: x-large;
+}
+
+.uslugi_list {
+    display: inline-block;
+    width: 202px;
+    height: 300px;
+    align-items: baseline;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.uslugi_img{
+    width: 200px;
+    height: 180px;
+    border:5px solid #d8cec2;
+}
+
+
+.uslugi_zagol{
+        width: auto;
+          height: auto;
+          margin-top: auto;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+         background-color: #4e4131;
+         display: flex;
+         flex-direction: row;
+         flex-wrap:nowrap;
+         justify-content: center;
+         justify-content:space-around;
+         align-items: center;
+         height: auto;  
+      }
+
+
+
+
+.contakti{
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+   background-color: #d8cec2;
+   display: flex;
+   flex-direction: row;
+   flex-wrap:nowrap;
+   justify-content: center;
+   justify-content:space-between;
+   align-items: center;
+   font-size: larger;
+   height: 600px;
+}
+
+#contact_form {
+    width: 300px;
+    height: 380px;
+    background-color: #7BCECD;
+    border: 5px solid #4e4131;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+#contact_form input, select {
+    border-radius: 5px;
+    border: 2px solid 513b24;
+    background-color: #d8cec2;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.contakti img{
+    width: 700px;
+    height: 550px;
+}
+
+
+.contakti h1{
+font-size: xx-large;
+}
+
+.contakti p{
+    font-size: x-large;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#nomainnav img{
+    width: 35px;
+    height: 35px;
+    display:inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    
+}
+
+#nomainnav h2{
+    width: 30px;
+   height: 30px;
+    text-align: left;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#nomainnav ul {
+  word-spacing: 35px;
+  margin: 0 auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+#nomainnav li {
+display: inline-block;
+text-decoration: none;
+}
